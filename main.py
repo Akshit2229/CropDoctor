@@ -9,8 +9,7 @@ from PIL import Image
 from remedies_data import remedies
 from gemini_helper import analyze_plant_with_gemini
 
-# Default Google Gemini API Key configured in background
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AIzaSyDc9LHgySBychfhDX4Mzb9UK4l-El39pAg")
+
 
 # Set page configuration at the very top
 st.set_page_config(
