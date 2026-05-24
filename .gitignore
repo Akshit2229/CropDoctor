@@ -1,0 +1,20 @@
+# Python system files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+
+# Datasets (Excluded because they are too large for GitHub)
+train/
+valid/
+test/
+
+# Trained Models / Large Binaries
+*.keras
+*.h5
+*.pkl
